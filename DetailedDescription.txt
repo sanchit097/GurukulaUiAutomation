@@ -24,8 +24,11 @@ o	stepDefinitions
 o	pageObjects
 o	utilities
 o	enums
+
 •	stepDefinitions: Contains classes where methods are written which maps with feature file steps.
+
 •	PageOjects : Package contains each page wise web elements and method which do business logic work with web driver.
+
 •	Utilities: 
 o	Contains WebDriverManager class responsible for deciding which browser driver to initialize based on the value given in config file. Also this class is responsible for creating driver object which will be used throughout the test.
 o	PageObjectManager class is responsible for passing page object class to step definition class. This class can be used to manage pageOjbect class’s objects for all the pages so that single object can be passed throughout the test.
