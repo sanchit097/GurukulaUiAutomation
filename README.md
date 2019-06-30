@@ -22,7 +22,9 @@ goto GurukulaUiAutomation folder
 mvn clean test
 
 #Test Result:
+
 Cucumber test results can be seen in target/cucumber/index.html file.
 
 Author
+
 Sanchit Singh Negi
